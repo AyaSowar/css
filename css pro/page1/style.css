@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.8)), url(image/images.jpg);
+    height: 100vh;
+    background-image: cover;
+    width: 100%;
+}
+.container{
+    width:1200px;
+    margin: auto;
+
+
+}
+.logo img{
+    width: 170px;
+    height: auto;
+    position: relative;
+    left: -150px;
+    top: -50px;
+}
+.nav-main{
+    float: right;
+}
+.nav-main li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.nav-main li a {
+    text-decoration:none ;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.nav-main li a:hover{
+    background-color: rgb(226, 112, 36);;
+    color: black;
+}
+.nav-main li a.active{
+    border: 1px solid #fff;
+}
+.nav-main li a.active:hover{
+    background-color: turquoise;
+    color: black;
+}
+.titleheader{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width:1200px;
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+    font-family: "Roboto" , sans-serif;
+    font-size: 50px;
+    margin-top: 200px;
+    color: white;
+   
+}
+.but{
+    padding: 20px;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.btn-one{
+    background-color: rgb(226, 112, 36);
+    border: 1px solid #000;
+
+}
+.btn-two{
+    background-color: rgb(180, 201, 201);
+    color: black;
+}
+.btn-two:hover{
+    background-color: rgb(58, 55, 55);
+    color: white;
+}
+
+
+

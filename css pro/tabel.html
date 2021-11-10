@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav$Table</title>
+
+    <style>
+        nav {
+            background-color: rgb(229, 233, 245);
+
+        }
+
+        a {
+            background-color: rgb(229, 233, 245);
+            color: black;
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        .contact {
+            background-color: rgb(99, 135, 233);
+        }
+
+        a:hover,
+        a:focus {
+            color: white;
+            background-color: rgb(255, 123, 0);
+            outline: orangered;
+        }
+
+        .about {
+            float: right;
+        }
+
+        table,
+        th,
+        td {
+            border: 4px solid rgb(143, 81, 204);
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 30px;
+            text-align: center;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            width: 400px;
+            height: 400px;
+
+        }
+
+        th {
+            padding: 15px;
+            background-color: rgb(255, 123, 0);
+            color: white;
+
+
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .s12 {
+            background-color: rgb(18, 215, 250);
+        }
+
+        .Ali {
+            background-color: rgb(252, 177, 252);
+            color: rgb(26, 170, 34);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="">News</a>
+        <a class="contact" href="">Contact</a>
+        <a class="about" href="">About</a>
+    </nav>
+    <hr>
+    <hr>
+    <center>
+        <table>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age
+                </th>
+            </tr>
+            <tr>
+                <td class="Ali">Ali</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Asil</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Samy</td>
+                <td class="s12">12</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>50</td>
+            </tr>
+        </table>
+
+
+    </center>
+
+
+
+</body>
+
+</html>
